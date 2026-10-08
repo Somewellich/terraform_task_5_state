@@ -21,5 +21,5 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "example" {
   name     = "terraformtask5"
-  location = "Denmark East"
+  location = "eastus"
 }
